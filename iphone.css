@@ -1,0 +1,18 @@
+﻿body{margin: 0; padding: 0; background: url(images/bg.jpg) top center no-repeat #ebebeb; font-family: Arial, Helvetica CE, Sans-Serif;}
+    
+#intro {width: 100%; text-align: center; margin: 100px 0 120px 0;}
+
+#nav {width: 284px; height: 80px; background: url(images/nav.png) top left no-repeat; margin: 0 auto; margin-bottom: 15px;}
+#nav-services{display: block; width: 94px; height: 40px; float: left; text-indent: -10000px;}
+#nav-portfolio{display: block; width: 96px; height: 40px; float: left; text-indent: -10000px;}
+#nav-journal{display: block; width: 94px; height: 40px; float: left; text-indent: -10000px;}
+#nav-about{display: block; width: 94px; height: 40px; float: left; text-indent: -10000px;}
+#nav-contact{display: block; width: 96px; height: 40px; float: left; text-indent: -10000px;}
+#nav-twitter{display: block; width: 94px; height: 40px; float: left; text-indent: -10000px;}
+
+.footer {color: #AAA; font-size: 11px; margin: 0 0 15px 0; width: 100%; text-align: center;}
+
+a.la {width: 20px;padding-left: 5px;padding-right: 5px;padding-top: 10px;padding-bottom: 10px; border: 1px solid #c0c0c0;background-color: #fff;color: #525252;font-size: 16px;}
+a.la:hover {border: 1px solid #007BD9;}
+
+a.selected {width: 20px;padding-left: 5px;padding-right: 5px;padding-top: 10px;padding-bottom: 10px; border: 1px solid #c0c0c0;background-color: #007BD9;color: #525252;font-size: 16px;}
