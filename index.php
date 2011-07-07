@@ -281,16 +281,7 @@ Password length:  <h3>
 
 ?>
         </div>
-  <?php /*      
-        <div id="nav">
-            <a href="/services/" id="nav-services">Services</a>
-            <a href="/portfolio/" id="nav-portfolio">Portfolio</a>
-            <a href="/journal/" id="nav-journal">Journal</a>
-            <a href="/about/" id="nav-about">About</a>
-            <a href="/contact/" id="nav-contact">Contact</a>
-            <a href="http://www.twitter.com/peterhinton" id="nav-twitter">Twitter</a>
-        </div>
-	  */ ?>  
+
 	    <div class="footer">
 	    
 	       Code by ITUnix.eu 2011 <br /> Design iPhone Version. &copy; Peter Hinton Design, 2011
