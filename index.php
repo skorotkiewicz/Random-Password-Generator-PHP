@@ -7,7 +7,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-<title>Random Password Generator</title>  
+<title>Random Password Generator</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <link rel="stylesheet" href="iphone.css" />
@@ -20,8 +20,8 @@
 <?php
 
 
-function abc3($howlong) 
-{ 
+function abc3($howlong)
+{
 		$howlong = $_GET['l'];
 		if($howlong >= 1 and $howlong <= 20) {
 		$howlong = $_GET['l'];
@@ -31,22 +31,22 @@ function abc3($howlong)
 		}
 
 // $howlong = $_GET['l'];
-$chars .= "ABCDEFGHIJKLMNOPRSTUWZYXQ"; 
-$pass = ""; 
-$len = strlen($chars) - 1; 
-for($i =0; $i < $howlong; $i++) 
-  { 
-   $random = rand(0, $len); 
+$chars .= "ABCDEFGHIJKLMNOPRSTUWZYXQ";
+$pass = "";
+$len = strlen($chars) - 1;
+for($i =0; $i < $howlong; $i++)
+  {
+   $random = rand(0, $len);
 
-       $output .=  $chars[$random]; 
-   } 
-return $output; 
+       $output .=  $chars[$random];
+   }
+return $output;
 };
 
 
 
-function abc2($howlong) 
-{ 
+function abc2($howlong)
+{
 
 		$howlong = $_GET['l'];
 		if($howlong >= 1 and $howlong <= 20) {
