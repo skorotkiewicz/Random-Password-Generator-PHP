@@ -4,26 +4,33 @@
 --- Written by modInfo ---
 */
 ?>
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Random Password Generator</title>
-    
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-	<link rel="stylesheet" href="iphone.css" />
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-    	        
+<title>Random Password Generator</title>  
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<link rel="stylesheet" href="iphone.css" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 </head>
 <body>
+
     <form id="form1" runat="server">
-        
         <div id="intro">
 <?php
+
+
 function abc3($howlong) 
 { 
-$howlong = $_GET['l'];
+		$howlong = $_GET['l'];
+		if($howlong >= 1 and $howlong <= 20) {
+		$howlong = $_GET['l'];
+		}
+		else {
+		$howlong = 3;
+		}
+
+// $howlong = $_GET['l'];
 $chars .= "ABCDEFGHIJKLMNOPRSTUWZYXQ"; 
 $pass = ""; 
 $len = strlen($chars) - 1; 
@@ -40,7 +47,16 @@ return $output;
 
 function abc2($howlong) 
 { 
-$howlong = $_GET['l'];
+
+		$howlong = $_GET['l'];
+		if($howlong >= 1 and $howlong <= 20) {
+		$howlong = $_GET['l'];
+		}
+		else {
+		$howlong = 3;
+		}
+
+// $howlong = $_GET['l'];
 $chars = "abcdefghijklmnoprstuwxyzq"; 
 $chars .= "ABCDEFGHIJKLMNOPRSTUWZYXQ"; 
 $pass = ""; 
@@ -57,7 +73,15 @@ return $output;
 
 function abc1($howlong) 
 { 
-$howlong = $_GET['l'];
+		$howlong = $_GET['l'];
+		if($howlong >= 1 and $howlong <= 20) {
+		$howlong = $_GET['l'];
+		}
+		else {
+		$howlong = 3;
+		}
+
+// $howlong = $_GET['l'];
 $chars = "abcdefghijklmnoprstuwxyzq"; 
 $pass = ""; 
 $len = strlen($chars) - 1; 
@@ -73,7 +97,15 @@ return $output;
 
 function abcmix($howlong) 
 { 
-$howlong = $_GET['l'];
+		$howlong = $_GET['l'];
+		if($howlong >= 1 and $howlong <= 20) {
+		$howlong = $_GET['l'];
+		}
+		else {
+		$howlong = 3;
+		}
+
+// $howlong = $_GET['l'];
 $chars = "abcdefghijklmnoprstuwxyzq"; 
 $chars .= "ABCDEFGHIJKLMNOPRSTUWZYXQ"; 
 $chars .= "1234567890"; 
@@ -92,7 +124,15 @@ return $output;
 
 function a3c($howlong) 
 { 
-$howlong = $_GET['l'];
+		$howlong = $_GET['l'];
+		if($howlong >= 1 and $howlong <= 20) {
+		$howlong = $_GET['l'];
+		}
+		else {
+		$howlong = 3;
+		}
+
+// $howlong = $_GET['l'];
 $chars = "abcdefghijklmnoprstuwxyzq"; 
 $chars .= "ABCDEFGHIJKLMNOPRSTUWZYXQ"; 
 $chars .= "1234567890"; 
@@ -110,7 +150,15 @@ return $output;
 
 function a123($howlong) 
 { 
-$howlong = $_GET['l'];
+		$howlong = $_GET['l'];
+		if($howlong >= 1 and $howlong <= 20) {
+		$howlong = $_GET['l'];
+		}
+		else {
+		$howlong = 3;
+		}
+
+// $howlong = $_GET['l'];
 $chars .= "1234567890"; 
 $pass = ""; 
 $len = strlen($chars) - 1; 
@@ -126,7 +174,15 @@ return $output;
 
 function abc($howlong) 
 { 
-$howlong = $_GET['l'];
+		$howlong = $_GET['l'];
+		if($howlong >= 1 and $howlong <= 20) {
+		$howlong = $_GET['l'];
+		}
+		else {
+		$howlong = 3;
+		}
+
+// $howlong = $_GET['l'];
 $chars = "abcdefghijklmnoprstuwxyzq"; 
 $pass = ""; 
 $len = strlen($chars) - 1; 
@@ -281,13 +337,9 @@ Password length:  <h3>
 </h3>
 ';
 }
-//echo $password;
-
-
 
 ?>
         </div>
-
 	    <div class="footer">
 	    
 	       Code by ITUnix.eu 2011 <br /> Design iPhone Version. &copy; Peter Hinton Design, 2011
@@ -297,3 +349,4 @@ Password length:  <h3>
     </form>
 </body>
 </html>
+
