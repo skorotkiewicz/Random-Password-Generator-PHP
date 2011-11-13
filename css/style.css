@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+
+	background-color:#E7F1FD;
+	color:#777777;
+	font-family:'Helvetica Neue',Arial,Verdana,sans-serif;
+	font-size:12px;
+	text-align: center;
+
+}
+    
+
+a.selected { border: 2px solid #c0c0c0;}
+
+
+h2 {
+	color:#0350A6;
+	font-size:20px;
+	font-weight:bold;
+	padding: 15px 0px 0px 20px;
+	margin: 0px;
+}
+
+
+
+
+
+
+.password {
+	color: #4D4D4D;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+
+.wrapper {
+	margin: 80px auto;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	background-color:#F1F7FE;
+	border-color:#8F9AA7 #C1CAD5 #C1CAD5;
+	border-style:solid;
+	border-width:1px;
+	width:500px;
+	text-align: left;
+}
+
+.header {
+	border-color:-moz-use-text-color -moz-use-text-color #C1CAD5;
+	border-style:none none solid;
+	border-width:0 0 1px;
+	height:52px;
+	padding:0;
+	border-bottom:1px solid #C1CAD5;
+	border-top:1px solid #F3F6F9;
+}
+
+.counter {
+	background-color:#E3E9F2;
+	border-bottom:1px solid #C1CAD5;
+	border-top:1px solid #F3F6F9;
+	padding: 15px 20px;
+}
+
+
+
+
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.button:active {
+	position:relative;
+	top:1px;
+}
