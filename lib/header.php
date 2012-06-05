@@ -8,13 +8,13 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
 	background-image: url('img/bg.jpg');
 	background-repeat: repeat; 
 
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-top: 60px;
 	margin: 0 auto;
 	width: 650px;
       }
@@ -25,14 +25,13 @@
 	padding-bottom: 20px;
        }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.gif">
   </head>
 
   <body>
