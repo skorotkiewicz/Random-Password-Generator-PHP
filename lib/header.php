@@ -39,7 +39,7 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="#">Random Password Generator</a>
+          <a class="brand" href="/">Random Password Generator</a>
         </div>
       </div>
     </div>
