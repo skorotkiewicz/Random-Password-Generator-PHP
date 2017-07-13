@@ -1,6 +1,6 @@
 <?php
 
-
+//echo "hi";
 function abc3($howlong) 
 { 
 	$howlong = $_GET['l'];
